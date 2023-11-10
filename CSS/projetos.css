@@ -1,0 +1,135 @@
+#projetos {
+    margin-top: 20%;
+}
+
+.project {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.project-texto {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.project-texto h2 {
+    font-size: max(3rem, min(4rem, 4vw));
+    color: var(--cor-primaria);
+    text-align: center;
+    font-weight: 800;
+}
+
+.project-texto-b h4 {
+    font-size: max(1.5rem, min(2rem, 2vw));
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    flex-flow: row wrap;
+}
+
+.fotos, .fotos-a {
+    flex: 40%;
+    margin: 0 5%;
+}
+
+.fotos img, .fotos-a img {
+    width: 100%;
+}
+
+.imgs h4 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--cor-primaria);
+    margin: 10px 0;
+}
+
+.imgs p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+@media screen and (max-width: 992px) {
+
+    .project-texto h2 {
+        font-size: max(1.5rem, min(4rem, 4vw));
+        margin-top: 50px;
+    }
+    
+    .project-texto-b h4 {
+        font-size: max(0.9rem, min(2rem, 2vw));
+        margin-bottom: -10px;
+        letter-spacing: 5px;
+        
+    }
+    
+    .imgs {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .imgs img {
+        width: 40%;
+    }
+
+    .imgs h4 p {
+        display: block;
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    .imgs h4 {
+        font-size: max(1rem, min(2rem, 2vw));
+        margin: 10px 0;
+    }
+
+    .imgs p {
+        font-size: max(1rem, min(2rem, 2vw));
+        margin: 0 10% 40px 10%;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .project-texto h2 {
+        font-size: 1.2rem;
+        margin-top: 40px;
+    }
+    
+    .project-texto-b h4 {
+        font-size: 0.8rem;
+        margin-bottom: -20px;        
+    }
+
+    .imgs h4 p {
+        display: block;
+        margin: 0;
+        padding: 0 0;
+    }
+
+    .imgs h4 {
+        font-size: max(1rem, min(2rem, 2vw));
+        margin: 10px;
+    }
+
+    .imgs p {
+        font-size: max(1rem, min(2rem, 2vw));
+        margin: 0 10% 30px 10%;
+        width: 80%;
+    }
+}
+

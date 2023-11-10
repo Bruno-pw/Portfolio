@@ -1,0 +1,44 @@
+body .main {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+ }
+ 
+ .thank-you-message h1 {
+    font-size: 3rem;
+    color: #180F4A;
+    text-align: center;
+ }
+
+ .thank-you-message p {
+    font-size: 2rem;
+    color: #FF2978;
+    letter-spacing: 10px;
+    text-align: center;
+ }
+
+ .btn {
+     padding: 15px 55px;
+     background: white;
+     border: 2px solid #093247;
+     text-decoration: none;
+     color: #101026;
+     font-size: 24px;
+     transition: all 0.5s;
+     margin-top: 50px;
+ }
+
+ .btn:hover {
+     border-radius: 16px;
+ }

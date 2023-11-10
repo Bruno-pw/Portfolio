@@ -1,0 +1,50 @@
+footer {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: radial-gradient(circle at center, var(--cor-secundaria), var(--cor-primaria));
+    width: 100%;
+    margin-top: 20%;
+    --mask: 
+    radial-gradient(57px at 25% 0,#0000 98%,#000) 50% 57px/228px 100% repeat-x,
+    radial-gradient(57px at 75% 50%,#000 99%,#0000 101%) top/228px 114px repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.footer-background {
+    height: 192px
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    background-color: var(--cor-primaria);
+ }
+
+ @media screen and (max-width: 992px) {
+
+    .footer-background {
+        height: 112px;
+    }
+
+    footer {
+        --mask: none;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .footer-background {
+        height: 50px;
+    }
+
+}
+
+ 

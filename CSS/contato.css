@@ -1,0 +1,252 @@
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 20%;
+}
+
+.contato-content h2 {
+    font-size: max(2.5rem, min(3.3rem, 3.3vw));
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contato-content p {
+    font-size: max(1.5rem, min(1.7rem, 1.7vw));
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+.form-text {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.contato-content label {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(61, 21, 95, 0.4);
+    padding-bottom: 20px;
+    width: 380px;
+}
+
+.contato-content input {
+    display: block;
+    font-size: 1.5rem;
+    color: rgba(61, 21, 95, 0.7);
+    border: none;
+    border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+    outline: none;
+    padding-bottom: 20px;
+}
+
+.form-text-nome, .form-text-email {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 60px 0;
+}
+
+.form-text-nome {
+    margin-right: 80px;
+}
+
+.form-text-mensagem {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    margin-bottom: 80px;
+}
+
+.form-text-mensagem textarea {
+    display: block;
+    font-size: 1.5rem;
+    border: none;
+    color: rgba(61, 21, 95, 0.7);
+    border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+    outline: none;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 80px;
+}
+
+input::placeholder, textarea::placeholder {
+    color:rgba(61, 21, 95, 0.7);
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+button {
+    background-color: var(--cor-primaria); 
+    color: #ffffff; 
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 140px;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s ease-in-out;
+}
+  
+button:hover {
+    background-color: var(--cor-secundaria);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #d1d5da;
+    border-radius: 6px;
+    background-color: #f6f8fa;
+    color: #24292e;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 100px;
+}
+  
+.download-btn .material-symbols-outlined {
+    font-size: 20px; 
+    margin-right: 8px;
+}
+  
+.download-btn:hover {
+    background-color: #c7c9cc;
+    border-color: #a0a2a4;
+}
+
+@media screen and (max-width: 992px) {
+
+    .contato-container {
+        margin-top: 50%;
+    }
+
+    .form-text {
+        flex-direction: column;
+    }
+
+    .contato-content {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .contato-content h2 {
+        font-size: max(2rem, min(3.3rem, 3.3vw));
+    }
+    
+    .contato-content p {
+        font-size: max(1rem, min(1.7rem, 1.7vw));
+    }
+    
+    .contato-content label {
+        display: block;
+        font-size: max(0.9rem, min(1rem, 1vw));
+        padding-bottom: 20px;
+        width: 38%;
+    }
+    
+    .contato-content input {
+        display: block;
+        font-size: max(1rem, min(1.5rem, 1.5vw));
+        padding-bottom: 10px;
+    }
+
+    .form-text-nome {
+        margin-right: 0;
+    }
+
+    .form-text-mensagem textarea {
+        display: block;
+        font-size: max(1rem, min(1.5rem, 1.5vw));
+    }
+    
+    input::placeholder, textarea::placeholder {
+        color:rgba(61, 21, 95, 0.7);
+    }
+    
+    .form-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    button {
+        background-color: var(--cor-primaria); 
+        color: #ffffff; 
+        cursor: none;
+        font-size: 16px;
+    }
+      
+    button:hover {
+        background-color: none;
+        box-shadow: none;
+    }
+    
+    .download-btn {
+        font-size: 16px;
+        cursor: none;
+        margin-bottom: 100px;
+   
+    }
+      
+    .download-btn .material-symbols-outlined {
+        font-size: 16px; 
+    }
+      
+    .download-btn:hover {
+        background-color: none;
+        border-color: none;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #contato {
+        margin-top: 150px;
+    }
+
+    .contato-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .contato-content p {
+        font-size: 0.9rem;
+        margin-bottom: -50px;
+    }
+
+    .form-text-nome {
+        padding-bottom: 10px;
+    }
+
+    .form-text-email {
+        padding-bottom: 20px;
+    }
+
+    .form-text-mensagem textarea {
+        margin-bottom: -20px;
+    }
+
+    button {
+        margin-bottom: -50px;
+    }
+
+}

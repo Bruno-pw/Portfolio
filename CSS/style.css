@@ -1,0 +1,42 @@
+/*=== TIPOGRAFIA ===*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*=== GLOBAL ===*/
+
+@import url('/CSS/global.css');
+
+/*=== HEADER ===*/
+
+@import url('/CSS/head.css');
+
+/*=== SECTION HOME ===*/
+
+@import url('/CSS/home.css');
+
+/*=== SECTION PROJETOS ===*/
+
+@import url('/CSS/projetos.css');
+
+/*=== SECTION SOBRE ===*/
+
+@import url('/CSS/sobre.css');
+
+/*=== SECTION CONTATO ===*/
+
+@import url('/CSS/contato.css');
+
+/*=== SECTION WHATSAPP ===*/
+
+@import url('/CSS/botton-whatsapp.css');
+
+/*=== OBRIGADO ====*/
+
+@import url('/CSS/obrigado.css');
+
+/*=== FOOTER ====*/
+
+@import url('/CSS/footer.css');
+
+    
+

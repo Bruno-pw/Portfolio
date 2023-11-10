@@ -1,0 +1,36 @@
+/*BOTÃO DO WHATSAPP*/
+
+.whatsapp-contato {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.whatsapp-contato img {
+    width: 80px;
+}
+
+
+
+/*=== MEDIA QUERY ===*/
+
+
+
+@media screen and (max-width: 992px) {
+
+    .whatsapp-contato img {
+        width: 70px;
+    }
+
+}
+
+  /*=== VERSION MOBILE ===*/
+
+  
+
+  @media screen and (max-width: 360px) {
+
+    .whatsapp-contato {
+        right: 3px;
+    }
+
+  }
