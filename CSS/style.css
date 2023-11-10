@@ -4,39 +4,39 @@
 
 /*=== GLOBAL ===*/
 
-@import url('/CSS/global.css');
+@import url('global.css');
 
 /*=== HEADER ===*/
 
-@import url('/CSS/head.css');
+@import url('head.css');
 
 /*=== SECTION HOME ===*/
 
-@import url('/CSS/home.css');
+@import url('home.css');
 
 /*=== SECTION PROJETOS ===*/
 
-@import url('/CSS/projetos.css');
+@import url('projetos.css');
 
 /*=== SECTION SOBRE ===*/
 
-@import url('/CSS/sobre.css');
+@import url('sobre.css');
 
 /*=== SECTION CONTATO ===*/
 
-@import url('/CSS/contato.css');
+@import url('contato.css');
 
 /*=== SECTION WHATSAPP ===*/
 
-@import url('/CSS/botton-whatsapp.css');
+@import url('botton-whatsapp.css');
 
 /*=== OBRIGADO ====*/
 
-@import url('/CSS/obrigado.css');
+@import url('obrigado.css');
 
 /*=== FOOTER ====*/
 
-@import url('/CSS/footer.css');
+@import url('footer.css');
 
     
 
